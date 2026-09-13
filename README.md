@@ -11,4 +11,4 @@ Coding Harness is the harness I regularly use for development with GPT. Its core
     - Planner clarifies the user's requirements and records them in SPEC.md, then translates those requirements into an executable plan in PLAN.md. Planner is also responsible for maintaining the documentation system and project status.
     - Executor receives PLAN.md and implements the functionality strictly according to this set of documents.
 - Document routing is the core design of this harness. A well-designed router enables an agent to retrieve precisely the information it needs. Clear role responsibilities and authority enable precise document routing: if a detailed document describes something outside a role's responsibilities, that role should not only be kept from seeing the document's contents—it should not even see the document's index entry.
-- For more details on the design of the documentation system, see /docs/document/document.md.
+- For more details on the design of the documentation system, see [/docs/document/document.md](docs/document/document.md).
